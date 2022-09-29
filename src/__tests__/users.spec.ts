@@ -1,9 +1,9 @@
 import "reflect-metadata";
 
-import { AuthenticateUserUseCase } from "../../../modules/users/useCases/authenticateUser/AuthenticateUserUseCase";
-import { InMemoryUsersRepository } from "../../../modules/users/repositories/in-memory/InMemoryUsersRepository";
-import { CreateUserUseCase } from "../../../modules/users/useCases/createUser/CreateUserUseCase";
-import { ShowUserProfileUseCase } from "../../../modules/users/useCases/showUserProfile/ShowUserProfileUseCase";
+import { AuthenticateUserUseCase } from "../modules/users/useCases/authenticateUser/AuthenticateUserUseCase";
+import { InMemoryUsersRepository } from "../modules/users/repositories/in-memory/InMemoryUsersRepository";
+import { CreateUserUseCase } from "../modules/users/useCases/createUser/CreateUserUseCase";
+import { ShowUserProfileUseCase } from "../modules/users/useCases/showUserProfile/ShowUserProfileUseCase";
 
 let inMemoryUsersRepository: InMemoryUsersRepository;
 let createUserUseCase: CreateUserUseCase;
