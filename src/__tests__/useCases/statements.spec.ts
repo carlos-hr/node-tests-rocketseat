@@ -1,13 +1,13 @@
 import "reflect-metadata";
 
-import { AuthenticateUserUseCase } from "../modules/users/useCases/authenticateUser/AuthenticateUserUseCase";
-import { InMemoryUsersRepository } from "../modules/users/repositories/in-memory/InMemoryUsersRepository";
-import { CreateUserUseCase } from "../modules/users/useCases/createUser/CreateUserUseCase";
-import { CreateStatementUseCase } from "../modules/statements/useCases/createStatement/CreateStatementUseCase";
-import { InMemoryStatementsRepository } from "../modules/statements/repositories/in-memory/InMemoryStatementsRepository";
-import { OperationType } from "../modules/statements/entities/Statement";
-import { GetBalanceUseCase } from "../modules/statements/useCases/getBalance/GetBalanceUseCase";
-import { GetStatementOperationUseCase } from "../modules/statements/useCases/getStatementOperation/GetStatementOperationUseCase";
+import { AuthenticateUserUseCase } from "../../modules/users/useCases/authenticateUser/AuthenticateUserUseCase";
+import { InMemoryUsersRepository } from "../../modules/users/repositories/in-memory/InMemoryUsersRepository";
+import { CreateUserUseCase } from "../../modules/users/useCases/createUser/CreateUserUseCase";
+import { CreateStatementUseCase } from "../../modules/statements/useCases/createStatement/CreateStatementUseCase";
+import { InMemoryStatementsRepository } from "../../modules/statements/repositories/in-memory/InMemoryStatementsRepository";
+import { OperationType } from "../../modules/statements/entities/Statement";
+import { GetBalanceUseCase } from "../../modules/statements/useCases/getBalance/GetBalanceUseCase";
+import { GetStatementOperationUseCase } from "../../modules/statements/useCases/getStatementOperation/GetStatementOperationUseCase";
 
 let inMemoryUsersRepository: InMemoryUsersRepository;
 let inMemoryStatementsRepository: InMemoryStatementsRepository;
